@@ -77,7 +77,7 @@
         class="btn btn-primary"
         data-toggle="modal"
         data-target="#exampleModal"
-        ,
+        data-toggle="tooltip" data-placement="top" title="Кнопка"
         style="
           margin-top: 10px;
           margin-bottom: 10px;
@@ -128,7 +128,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#" data-bs-toggle="tooltip" data-bs-title="Morgenstern`а">Альбомы</a>
+                  <a class="nav-link text-white" href="#">Альбомы</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -475,7 +475,7 @@
               >
                 <div class="card-body">
                   <p class="all_text">
-                    Женой исполнителя стала
+                    <span>Женой</span> исполнителя стала
                     <a
                       href="https://teleprogramma.pro/persons/dilara-zinatullina"
                       target="_blank"
@@ -802,9 +802,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./js/index.js"></script>
-    <script>
-      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-    </script>
   </body>
 </html>
