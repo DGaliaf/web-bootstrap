@@ -22,6 +22,10 @@ a {
     color: #669bbc;
 }
 
+.modal-title {
+    color: black !important;
+}
+
 .a_footer, h2_footer {
     color: #669bbc;
 }
