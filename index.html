@@ -17,7 +17,6 @@
     <header class="header d-flex justify-content-around align-items-center">
       <div>
         <h1><strong>Morgenstern*</strong></h1>
-        <p><strong>-Признан иностранным агентом</strong></p>
       </div>
       <div
         class="modal fade"
@@ -73,7 +72,6 @@
           </div>
         </div>
       </div>
-
       <button
         type="button"
         class="btn btn-primary"
@@ -90,6 +88,12 @@
         Следить за творчеством
       </button>
     </header>
+    <div class="alert alert-primary alert-dismissible" role="alert">
+      Этот сайт использует cookie
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
 
     <div class="container">
       <div class="row">
@@ -797,7 +801,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <script src="./js/index.js"></script>
     <script>
       const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
       const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
